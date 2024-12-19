@@ -77,3 +77,8 @@ La base de données H2 a été choisie pour simplifier le développement. Elle p
 Le backend offre une architecture modulaire et scalable grâce à Spring Boot. Tous les services peuvent être déployés indépendamment, offrant une grande flexibilité.  
 
 Le code source du frontend peut être trouvé ici : [Repo Frontend](https://github.com/othsoh/ecom-microServiceApp-Front-angular/)
+
+
+---
+
+© 2024 Projet Académique - Application E-commerce Microservices (Backend)
