@@ -1,13 +1,14 @@
-#spring:
-#  cloud:
-#    gateway:
-#      mvc:
-#        routes:
-#          - id: r1
-#            uri: https://localhost:8081
-#            predicates:
-#            - Path=/customers/**
-#          - id: r2
-#            uri: https://localhost:8082
-#            predicates:
-#            - Path=/products/**
+spring:
+  cloud:
+    gateway:
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "http://localhost:4200"
+            allowedMethods:
+              - GET
+              - POST
+              - PUT
+              - DELETE
+            allowedHeaders:
+              - "*"
